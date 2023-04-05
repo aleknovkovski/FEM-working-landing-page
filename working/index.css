@@ -27,3 +27,20 @@ header {
     transform: scaleX(1.2);
 }
 
+.features {
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.features::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    background-color: red;
+    height: 100%;
+    border-radius: 0 0 100% 100%;
+    transform: scaleX(1.2);
+}
