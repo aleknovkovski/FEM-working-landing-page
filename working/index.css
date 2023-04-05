@@ -131,7 +131,12 @@ main {
     width: 767px;
 }
 
+.features, .features-divider {
+    top: -150px;
+}
+
 .features {
+    position: relative;
     background-color: #FCF8FF;
 }
 
