@@ -125,6 +125,13 @@ main {
     transform: scaleX(1.2);
 }
 
+.features-content-box {
+    padding-top: 255px;
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+}
+
 .call-to-action {
     display: flex;
     margin-top: 200px;
