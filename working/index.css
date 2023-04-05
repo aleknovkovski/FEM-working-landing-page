@@ -110,15 +110,16 @@ main {
 }
 
 .features-divider {
-    height: 500px;
+    height: 330px;
     overflow: hidden;
     position: relative;
+    z-index: 2;
 }
 
 .features-divider::after {
     content: "";
     position: absolute;
-    bottom: 0;
+    top: -170px;
     display: block;
     width: 100%;
     background-color: #FCF8FF;
