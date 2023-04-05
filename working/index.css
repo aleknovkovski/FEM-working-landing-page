@@ -37,6 +37,7 @@ header {
     padding-bottom: 3px;
     border-bottom: 3px solid #44FFA1;
 }
+
 main {
     position: relative;
     top: -150px;
@@ -44,19 +45,23 @@ main {
 }
 
 .hero {
-    height: 730px;
-    padding: 146px;
-    overflow: hidden;
-    position: relative;
-    background: #FCF8FF;
+    background: #24053E;
+    padding-top: 146px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.hero-divider {
+    height: 330px;
+    overflow: hidden;
+    position: relative;
+    background: #FCF8FF;
     z-index: 2;
 }
 
-.hero::after {
+.hero-divider::after {
     content: "";
     position: absolute;
     bottom: 0;
