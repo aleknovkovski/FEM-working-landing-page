@@ -72,26 +72,26 @@ main {
     flex-direction: column;
 }
 
-.hero-divider {
-    height: 330px;
-    overflow: hidden;
-    position: relative;
-    background: #FCF8FF;
-    z-index: 2;
-}
+/*.hero-divider {*/
+/*    height: 330px;*/
+/*    overflow: hidden;*/
+/*    position: relative;*/
+/*    background: #FCF8FF;*/
+/*    z-index: 2;*/
+/*}*/
 
-.hero-divider::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    display: block;
-    width: 100%;
-    background-color: #24053E;
-    height: 100%;
-    border-radius: 0 0 100% 100%;
-    transform: scaleX(1.2);
-    z-index: -1;
-}
+/*.hero-divider::after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    background-color: #24053E;*/
+/*    height: 100%;*/
+/*    border-radius: 0 0 100% 100%;*/
+/*    transform: scaleX(1.2);*/
+/*    z-index: -1;*/
+/*}*/
 
 .hero-image {
     position: absolute;
