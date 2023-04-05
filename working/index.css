@@ -41,6 +41,13 @@ header {
     justify-content: space-between;
 }
 
+.green-underline {
+    text-decoration: underline;
+    text-decoration-color: #44FFA1;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+}
+
 .header-CTA {
     font-variation-settings: "wght" 700;
     text-decoration: none;
