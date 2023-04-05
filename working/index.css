@@ -13,7 +13,7 @@ header {
     height: 500px;
     overflow: hidden;
     position: relative;
-    background: red;
+    background: #FCF8FF;
 }
 
 .hero::after {
@@ -22,7 +22,7 @@ header {
     bottom: 0;
     display: block;
     width: 100%;
-    background-color: green;
+    background-color: #24053E;
     height: 100%;
     border-radius: 0 0 100% 100%;
     transform: scaleX(1.2);
@@ -40,7 +40,7 @@ header {
     bottom: 0;
     display: block;
     width: 100%;
-    background-color: red;
+    background-color: #FCF8FF;
     height: 100%;
     border-radius: 0 0 100% 100%;
     transform: scaleX(1.2);
