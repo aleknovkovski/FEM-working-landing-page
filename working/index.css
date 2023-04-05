@@ -73,6 +73,7 @@ header {
     height: 474px;
     background: #24053E;
     color: white;
+    padding: 64px;
 }
 
 h2 {
@@ -80,6 +81,10 @@ h2 {
     font-weight: 600;
     font-size: 56px;
     line-height: 64px;
+}
+
+p, h2 {
+    margin-bottom: 32px;
 }
 
 button {
