@@ -17,6 +17,7 @@ body {
     font-family: 'Manrope', sans-serif;
     font-size: 18px;
     line-height: 32px;
+    color: #24053E;
 }
 
 .dark-element, .dark-element a {
@@ -107,6 +108,7 @@ main {
 .features {
     background-color: #FCF8FF;
 }
+
 .features-divider {
     height: 500px;
     overflow: hidden;
@@ -161,7 +163,7 @@ main {
     padding: 64px;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Fraunces', serif;
     font-variation-settings: "wght" 600, "opsz" 144;
 }
@@ -188,6 +190,11 @@ h2 {
 
 p, h2 {
     margin-bottom: 32px;
+}
+
+h3 {
+    font-size: 32px;
+    margin-bottom: 28px;
 }
 
 button {
