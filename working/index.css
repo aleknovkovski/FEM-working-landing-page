@@ -42,7 +42,7 @@ header {
 }
 
 .header-CTA {
-    font-weight: 700;
+    font-variation-settings: "wght" 700;
     text-decoration: none;
     padding-bottom: 3px;
     border-bottom: 3px solid #44FFA1;
@@ -96,6 +96,7 @@ main {
 .hero-image img {
     width: 767px;
 }
+
 .features {
     height: 500px;
     overflow: hidden;
@@ -139,7 +140,7 @@ main {
 
 h1, h2 {
     font-family: 'Fraunces', serif;
-    font-weight: 600;
+    font-variation-settings: "wght" 600, "opsz" 144;
 }
 
 h1 {
