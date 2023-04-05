@@ -86,8 +86,8 @@ main {
     background-image: url("./assets/images/bg-pattern-3.svg"),
     url("./assets/images/bg-pattern-2.svg");
     background-repeat: no-repeat, no-repeat;
-    background-position: 0 0, 0 0;
-    background-size: auto, auto;
+    background-position: -10% 30%, 103% 55%;
+    background-size: 20%, auto;
 }
 
 .hero::after {
