@@ -138,6 +138,19 @@ main {
 .feature-box {
     width: 354px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number-circle {
+    width: 56px;
+    height: 56px;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 56px;
 }
 
 .call-to-action {
