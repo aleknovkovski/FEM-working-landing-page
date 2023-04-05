@@ -130,6 +130,12 @@ main {
     display: flex;
     flex-direction: row;
     gap: 26px;
+    justify-content: center;
+}
+
+.feature-box {
+    width: 354px;
+    text-align: center;
 }
 
 .call-to-action {
