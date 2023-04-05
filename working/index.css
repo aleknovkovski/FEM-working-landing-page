@@ -13,6 +13,11 @@ body {
     color: white;
 }
 
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
 header {
     position: absolute;
     top: 0;
