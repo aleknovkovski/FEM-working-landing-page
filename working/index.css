@@ -146,11 +146,12 @@ main {
 .number-circle {
     width: 56px;
     height: 56px;
-    background: red;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 56px;
+    border: 1px solid #584D62;
+    border-radius: 30px;
 }
 
 .call-to-action {
