@@ -13,7 +13,7 @@
     src: url('./assets/fonts/manrope/Manrope-VariableFont_wght.ttf');
 }
 
-body {
+body, button {
     font-family: 'Manrope', sans-serif;
     font-size: 18px;
     line-height: 32px;
@@ -165,11 +165,11 @@ main {
 }
 
 .call-to-action img {
-    width: 450px;
-    height: 450px;
+    width: 477px;
+    height: 477px;
     z-index: -1;
     position: relative;
-    top: -150px;
+    top: -175px;
     right: -100px;
 }
 
