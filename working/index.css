@@ -81,3 +81,10 @@ h2 {
     font-size: 56px;
     line-height: 64px;
 }
+
+button {
+    background: #44FFA1;
+    padding: 13px 25px;
+    font-weight: 700;
+    letter-spacing: -0.18px;
+}
