@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url('./assets/fonts/fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf');
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('./assets/fonts/manrope/Manrope-VariableFont_wght.ttf');
+}
+
+body, button {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: #24053E;
+}
+
+.dark-element, .dark-element a {
+    color: white;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/*.inner-container {*/
+/*    width: 1114px;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+/*header {*/
+/*    z-index: 3;*/
+/*    width: 100%;*/
+/*    padding: 56px;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+/*.green-underline {*/
+/*    text-decoration: underline;*/
+/*    text-decoration-color: #44FFA1;*/
+/*    text-decoration-thickness: 3px;*/
+/*    text-underline-offset: 6px;*/
+/*}*/
+
+/*.header-CTA {*/
+/*    font-variation-settings: "wght" 700;*/
+/*    text-decoration: none;*/
+/*    padding-bottom: 3px;*/
+/*    border-bottom: 3px solid #44FFA1;*/
+/*}*/
+
+/*main {*/
+/*    position: relative;*/
+/*    top: -150px;*/
+/*    z-index: -1;*/
+/*}*/
+
+/*.hero {*/
+/*    background: #24053E;*/
+/*    padding-top: 146px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*.hero-divider {*/
+/*    height: 330px;*/
+/*    overflow: hidden;*/
+/*    position: relative;*/
+/*    background: #FCF8FF;*/
+/*    z-index: 2;*/
+/*}*/
+
+/*.hero-divider::after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    background-color: #24053E;*/
+/*    height: 100%;*/
+/*    border-radius: 0 0 100% 100%;*/
+/*    transform: scaleX(1.2);*/
+/*    z-index: -1;*/
+/*}*/
+
+/*.hero-image {*/
+/*    position: absolute;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    width: 100%;*/
+/*    top: 220px;*/
+/*    z-index: 10;*/
+/*}*/
+
+/*.hero-image img {*/
+/*    width: 767px;*/
+/*}*/
+
+/*.features {*/
+/*    background-color: #FCF8FF;*/
+/*}*/
+
+/*.features-divider {*/
+/*    height: 330px;*/
+/*    overflow: hidden;*/
+/*    position: relative;*/
+/*    z-index: 2;*/
+/*}*/
+
+/*.features-divider::after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: -170px;*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    background-color: #FCF8FF;*/
+/*    height: 100%;*/
+/*    border-radius: 0 0 100% 100%;*/
+/*    transform: scaleX(1.2);*/
+/*}*/
+
+/*.features-content-box {*/
+/*    padding-top: 255px;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    gap: 26px;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.feature-box {*/
+/*    width: 354px;*/
+/*    text-align: center;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.number-circle {*/
+/*    width: 56px;*/
+/*    height: 56px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    margin-bottom: 56px;*/
+/*    border: 1px solid #584D62;*/
+/*    border-radius: 30px;*/
+/*    font-size: 24px;*/
+/*    line-height: 40px;*/
+/*}*/
+
+/*.call-to-action {*/
+/*    display: flex;*/
+/*    margin-top: 100px;*/
+/*    position: relative;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.call-to-action img {*/
+/*    width: 477px;*/
+/*    height: 477px;*/
+/*    z-index: -1;*/
+/*    position: relative;*/
+/*    top: -175px;*/
+/*    right: -100px;*/
+/*}*/
+
+/*.call-to-action__box {*/
+/*    width: 730px;*/
+/*    height: 413px;*/
+/*    background: #24053E;*/
+/*    padding: 64px;*/
+/*}*/
+
+/*h1, h2, h3, .number-circle {*/
+/*    font-family: 'Fraunces', serif;*/
+/*    font-variation-settings: "wght" 600, "opsz" 144;*/
+/*}*/
+
+/*h1 {*/
+/*    font-size: 80px;*/
+/*    line-height: 80px;*/
+/*    margin-bottom: 37px;*/
+/*}*/
+
+/*.hero-content-box {*/
+/*    width: 635px;*/
+/*    display: flex;*/
+/*    text-align: center;*/
+/*    flex-direction: column;*/
+/*    justify-items: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*h2 {*/
+/*    font-size: 56px;*/
+/*    line-height: 64px;*/
+/*}*/
+
+/*p, h2 {*/
+/*    margin-bottom: 32px;*/
+/*}*/
+
+/*h3 {*/
+/*    font-size: 32px;*/
+/*    margin-bottom: 28px;*/
+/*}*/
+
+/*button {*/
+/*    background: #44FFA1;*/
+/*    padding: 13px 25px;*/
+/*    font-weight: 700;*/
+/*    letter-spacing: -0.18px;*/
+/*}*/
