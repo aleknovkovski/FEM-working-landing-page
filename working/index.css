@@ -49,9 +49,6 @@ header {
 .call-to-action {
     display: flex;
     margin-top: 200px;
-    /*flex-direction: column;*/
-
-    /*margin: 200px;*/
     position: relative;
     justify-content: center;
 }
