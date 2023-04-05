@@ -82,6 +82,12 @@ main {
     height: 100%;
     background-color: transparent;
     z-index: 1;
+
+    background-image: url("./assets/images/bg-pattern-3.svg"),
+    url("./assets/images/bg-pattern-2.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0 0, 0 0;
+    background-size: auto, auto;
 }
 
 .hero::after {
