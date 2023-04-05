@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
 header {
     position: absolute;
     top: 0;
