@@ -97,6 +97,15 @@ h1 {
     margin-bottom: 37px;
 }
 
+.hero-content-box {
+    width: 635px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
 h2 {
     font-size: 56px;
     line-height: 64px;
