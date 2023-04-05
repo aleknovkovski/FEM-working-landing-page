@@ -86,9 +86,18 @@ header {
     padding: 64px;
 }
 
-h2 {
+h1, h2 {
     font-family: 'Fraunces', serif;
     font-weight: 600;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 80px;
+    margin-bottom: 37px;
+}
+
+h2 {
     font-size: 56px;
     line-height: 64px;
 }
