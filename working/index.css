@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -70,7 +71,7 @@ header {
 
 .call-to-action__box {
     width: 730px;
-    height: 474px;
+    height: 413px;
     background: #24053E;
     color: white;
     padding: 64px;
