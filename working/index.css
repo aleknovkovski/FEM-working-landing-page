@@ -9,6 +9,10 @@ body {
     line-height: 32px;
 }
 
+.dark-element {
+    color: white;
+}
+
 header {
     position: absolute;
     top: 0;
@@ -79,7 +83,6 @@ header {
     width: 730px;
     height: 413px;
     background: #24053E;
-    color: white;
     padding: 64px;
 }
 
