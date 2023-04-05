@@ -25,7 +25,8 @@ header {
 }
 
 .hero {
-    height: 500px;
+    height: 730px;
+    padding: 146px;
     overflow: hidden;
     position: relative;
     background: #FCF8FF;
