@@ -45,3 +45,28 @@ header {
     border-radius: 0 0 100% 100%;
     transform: scaleX(1.2);
 }
+
+.call-to-action {
+    display: flex;
+    margin-top: 200px;
+    /*flex-direction: column;*/
+
+    /*margin: 200px;*/
+    position: relative;
+    justify-content: center;
+}
+
+.call-to-action img {
+    width: 450px;
+    height: 450px;
+    z-index: -1;
+    position: relative;
+    top: -150px;
+    right: -100px;
+}
+
+.call-to-action__box {
+    width: 700px;
+    height: 500px;
+    background: blue;
+}
