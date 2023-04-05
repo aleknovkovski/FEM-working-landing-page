@@ -63,7 +63,8 @@ header {
 }
 
 .call-to-action__box {
-    width: 700px;
-    height: 500px;
-    background: blue;
+    width: 730px;
+    height: 474px;
+    background: #24053E;
+    color: white;
 }
