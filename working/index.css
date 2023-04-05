@@ -18,6 +18,11 @@ body {
     margin: 0 auto;
 }
 
+.inner-container {
+    width: 1114px;
+    margin: 0 auto;
+}
+
 header {
     z-index: 3;
     width: 100%;
