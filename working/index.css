@@ -105,12 +105,15 @@ main {
 }
 
 .features {
+    background-color: #FCF8FF;
+}
+.features-divider {
     height: 500px;
     overflow: hidden;
     position: relative;
 }
 
-.features::after {
+.features-divider::after {
     content: "";
     position: absolute;
     bottom: 0;
