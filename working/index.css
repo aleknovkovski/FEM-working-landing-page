@@ -441,10 +441,21 @@ h1 {
     margin-bottom: 40px;
 }
 
+h3 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
 @media screen and (min-width: 768px) {
     h1 {
         font-size: 60px;
         line-height: 60px;
+    }
+
+    h3 {
+        font-size: 28px;
+        line-height: 36px;
     }
 }
 
@@ -454,14 +465,17 @@ h1 {
         line-height: 80px;
         margin-bottom: 37px;
     }
+
+    h3 {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 28px;
+    }
 }
 
 p, h2 {
     margin-bottom: 32px;
 }
 
-h3 {
-    font-size: 32px;
-    margin-bottom: 28px;
-}
+
 
