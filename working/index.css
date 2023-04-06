@@ -341,11 +341,7 @@ main {
 }
 
 .cta-springie {
-    position: absolute;
-    width: 173px;
-    z-index: 1;
-    bottom: -80px;
-    right: 10px;
+    display: none;
 }
 
 h2 {
@@ -383,6 +379,15 @@ button {
         z-index: 1;
         text-align: left;
         flex-shrink: 0;
+    }
+
+    .cta-springie {
+        display: block;
+        position: absolute;
+        width: 173px;
+        z-index: 1;
+        bottom: -80px;
+        right: 10px;
     }
 }
 
