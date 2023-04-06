@@ -163,27 +163,6 @@ main {
     }
 }
 
-/*.hero-divider {*/
-/*    height: 330px;*/
-/*    overflow: hidden;*/
-/*    position: relative;*/
-/*    background: #FCF8FF;*/
-/*    z-index: 2;*/
-/*}*/
-
-/*.hero-divider::after {*/
-/*    content: "";*/
-/*    position: absolute;*/
-/*    bottom: 0;*/
-/*    display: block;*/
-/*    width: 100%;*/
-/*    background-color: #24053E;*/
-/*    height: 100%;*/
-/*    border-radius: 0 0 100% 100%;*/
-/*    transform: scaleX(1.2);*/
-/*    z-index: -1;*/
-/*}*/
-
 .hero-image {
     position: absolute;
     display: flex;
@@ -213,34 +192,30 @@ main {
     }
 }
 
-
-.features, .features-divider {
-    top: -80px;
-}
-
 .features {
+    top: -80px;
+    padding-top: 155px; /* 155 per figma plus the 80 from top */
     position: relative;
-    padding-top: 235px; /* 155 per figma, plus 80 from top*/
-    background-color: #FCF8FF;
-}
-
-.features-divider {
-    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: -2;
     overflow: hidden;
-    position: relative;
-    z-index: 2;
+    background-color: transparent;
 }
 
-.features-divider::after {
+.features::after {
     content: "";
     position: absolute;
-    top: -170px;
-    display: block;
+    bottom: 0;
     width: 100%;
-    background-color: #FCF8FF;
     height: 100%;
+    background-color: #FCF8FF;
     border-radius: 0 0 80% 80%;
     transform: scaleX(2.5);
+    z-index: -1;
+    pointer-events: none
 }
 
 .features-content-box {
@@ -274,10 +249,6 @@ main {
 
 @media (min-width: 768px) {
 
-    .features-divider::after {
-        transform: scaleX(2.1);
-    }
-
     .features {
         padding-top: 323px; /* 203 per figma, plus 80 from top, plus 40x adjustment*/
     }
@@ -304,10 +275,6 @@ main {
 
 
 @media (min-width: 1440px) {
-
-    .features-divider::after {
-        transform: scaleX(1.5);
-    }
 
     .features {
         padding-top: 445px; /* 255 per figma, plus 80 from top, plus 100px adjustment*/
