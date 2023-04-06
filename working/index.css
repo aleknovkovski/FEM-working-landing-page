@@ -120,13 +120,13 @@ main {
 }
 
 .hero-content-box {
-    width: 635px;
+    width: 80%;
     display: flex;
     text-align: center;
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    margin-bottom: 203px;
+    margin-bottom: 156px;
 }
 
 @media screen and (min-width: 1440px) {
@@ -141,6 +141,11 @@ main {
 }
 
 @media screen and (min-width: 768px) {
+    .hero-content-box {
+        width: 635px;
+        margin-bottom: 203px;
+    }
+
     .hero::before {
         background-image: url("./assets/images/bg-pattern-3.svg"),
         url("./assets/images/bg-pattern-2.svg");
@@ -353,6 +358,7 @@ h1, h2, h3, .number-circle {
 h1 {
     font-size: 50px;
     line-height: 50px;
+    margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
