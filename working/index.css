@@ -83,7 +83,7 @@ body, button {
     color: #44FFA1;
 }
 
-main {
+main, footer {
     position: relative;
     top: -160px;
     z-index: 1;
@@ -321,6 +321,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 74px;
 }
 
 .founder {
@@ -363,6 +364,7 @@ button {
         flex-direction: row;
         margin-top: 245px;
         padding-right: 80px;
+        margin-bottom: 80px;
     }
 
     .founder {
@@ -393,6 +395,9 @@ button {
 }
 
 @media screen and (min-width: 1440px) {
+    .call-to-action {
+        margin-bottom: 60px;
+    }
     .founder {
         width: 477px;
         height: 477px;
@@ -484,6 +489,7 @@ footer {
     display: flex;
     justify-content: center;
 }
+
 .social-box {
     width: 116px;
     height: 102px;
