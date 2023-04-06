@@ -24,24 +24,24 @@ body, button {
     color: white;
 }
 
-.container {
-    width: 768px;
-    margin: 0 auto;
-    /*overflow: hidden;*/
-}
-
-.inner-container {
-    width: 689px;
-    margin: 0 auto;
-    /*overflow: hidden;*/
-}
-
 .header {
     z-index: 3;
     padding: 32px 32px;
     margin-bottom: 56px;
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .inner-container {
+        width: 689px;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -141,13 +141,13 @@ main {
 }
 
 @media screen and (min-width: 768px) {
-.hero::before {
-    background-image: url("./assets/images/bg-pattern-3.svg"),
-    url("./assets/images/bg-pattern-2.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-position: -45% 30%, 115% 55%;
-    background-size: 40%, auto;
-}
+    .hero::before {
+        background-image: url("./assets/images/bg-pattern-3.svg"),
+        url("./assets/images/bg-pattern-2.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: -45% 30%, 115% 55%;
+        background-size: 40%, auto;
+    }
 }
 
 /*.hero-divider {*/
