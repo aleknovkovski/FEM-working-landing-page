@@ -27,13 +27,13 @@ body, button {
 .container {
     width: 768px;
     margin: 0 auto;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .inner-container {
     width: 689px;
     margin: 0 auto;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .header {
@@ -87,6 +87,7 @@ main {
     align-items: center;
     flex-direction: column;
     z-index: 2;
+    overflow: hidden;
 }
 
 .hero::before {
