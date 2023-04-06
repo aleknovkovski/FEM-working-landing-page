@@ -24,13 +24,27 @@ body, button {
     color: white;
 }
 
-.container, .inner-container {
+.container {
     width: 768px;
     margin: 0 auto;
     overflow: hidden;
 }
 
-@media screen and (min-width: 769px) {
+.inner-container {
+    width: 689px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header {
+    z-index: 3;
+    padding: 32px 32px;
+    margin-bottom: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1440px) {
     .container {
         width: 1440px;
     }
@@ -39,15 +53,10 @@ body, button {
         width: 1114px;
         margin: 0 auto;
     }
-}
 
-
-header {
-    z-index: 3;
-    width: 100%;
-    padding: 56px;
-    display: flex;
-    justify-content: space-between;
+    .header {
+        padding: 56px;
+    }
 }
 
 .green-underline {
@@ -66,7 +75,7 @@ header {
 
 main {
     position: relative;
-    top: -150px;
+    top: -160px;
     z-index: -1;
 }
 
@@ -110,7 +119,7 @@ main {
     pointer-events: none
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1440px) {
     .hero::before {
         background-position: -10% 30%, 103% 55%;
         background-size: 20%, auto;
@@ -151,7 +160,7 @@ main {
     width: 514px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1440px) {
     .hero-image img {
         width: 767px;
     }
@@ -164,7 +173,7 @@ main {
 
 .features {
     position: relative;
-    padding-top: 180px;
+    padding-top: 255px;
     background-color: #FCF8FF;
 }
 
