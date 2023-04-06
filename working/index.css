@@ -213,7 +213,7 @@ main {
     height: 100%;
     background-color: #FCF8FF;
     border-radius: 0 0 80% 80%;
-    transform: scaleX(2.5);
+    transform: scaleX(3.8);
     z-index: -1;
     pointer-events: none
 }
@@ -254,6 +254,10 @@ main {
         padding-top: 323px; /* 203 per figma, plus 80 from top, plus 40x adjustment*/
     }
 
+    .features::after {
+        transform: scaleX(2.8);
+    }
+
     .features-content-box {
         justify-content: center;
         margin-bottom: 103px;
@@ -276,6 +280,10 @@ main {
 
 
 @media (min-width: 1440px) {
+
+    .features::after {
+        transform: scaleX(1.95);
+    }
 
     .features {
         padding-top: 445px; /* 255 per figma, plus 80 from top, plus 100px adjustment*/
