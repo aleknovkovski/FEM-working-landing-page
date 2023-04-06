@@ -279,7 +279,7 @@ main {
     }
 
     .features {
-        padding-top: 283px; /* 203 per figma, plus 80 from top*/
+        padding-top: 323px; /* 203 per figma, plus 80 from top, plus 40x adjustment*/
     }
 
     .features-content-box {
@@ -309,7 +309,7 @@ main {
     }
 
     .features {
-        padding-top: 335px; /* 255 per figma, plus 80 from top*/
+        padding-top: 445px; /* 255 per figma, plus 80 from top, plus 100px adjustment*/
     }
 
     .features-content-box {
