@@ -311,6 +311,7 @@ main {
     z-index: -1;
     position: relative;
     top: 50px;
+    margin-top: 50px; /* Plus 50 from top, matches 100px per Figma design */
 }
 
 .call-to-action__box {
@@ -346,12 +347,13 @@ button {
 @media screen and (min-width: 768px) {
     .call-to-action {
         flex-direction: row;
+        margin-top: 245px;
+        padding-right: 80px;
     }
-
 
     .founder {
         position: relative;
-        top: -145px;
+        top: -215px;
         right: -100px;
     }
 
@@ -363,6 +365,7 @@ button {
         padding: 56px;
         z-index: -1;
         text-align: left;
+        flex-shrink: 0;
     }
 }
 
