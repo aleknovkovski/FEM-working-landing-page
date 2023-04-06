@@ -194,7 +194,7 @@ main {
 }
 
 .features {
-    padding-top: 155px; /* 155 per figma plus the 80 from top */
+    padding-top: 155px; /* 155 per figma */
     position: relative;
     display: flex;
     justify-content: center;
@@ -251,7 +251,7 @@ main {
 @media (min-width: 768px) {
 
     .features {
-        padding-top: 323px; /* 203 per figma, plus 80 from top, plus 40x adjustment*/
+        padding-top: 223px; /* 203 per figma, plus 20px adjustment*/
     }
 
     .features::after {
@@ -286,7 +286,7 @@ main {
     }
 
     .features {
-        padding-top: 445px; /* 255 per figma, plus 80 from top, plus 100px adjustment*/
+        padding-top: 345px; /* 255 per figma, plus 80px adjustment */
     }
 
     .features-content-box {
