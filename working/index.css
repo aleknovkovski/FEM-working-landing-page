@@ -24,16 +24,23 @@ body, button {
     color: white;
 }
 
-.container {
-    width: 1440px;
+.container, .inner-container {
+    width: 768px;
     margin: 0 auto;
     overflow: hidden;
 }
 
-.inner-container {
-    width: 1114px;
-    margin: 0 auto;
+@media screen and (min-width: 769px) {
+    .container {
+        width: 1440px;
+    }
+
+    .inner-container {
+        width: 1114px;
+        margin: 0 auto;
+    }
 }
+
 
 header {
     z-index: 3;
@@ -134,8 +141,15 @@ main {
 }
 
 .hero-image img {
-    width: 767px;
+    width: 514px;
 }
+
+@media (min-width: 769px) {
+    .hero-image img {
+        width: 767px;
+    }
+}
+
 
 .features, .features-divider {
     top: -150px;
@@ -235,7 +249,7 @@ h1 {
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    margin-bottom: 326px;
+    margin-bottom: 203px;
 }
 
 h2 {
