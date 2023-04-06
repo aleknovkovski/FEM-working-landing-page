@@ -290,6 +290,7 @@ main {
     .feature-box {
         flex-direction: row;
         align-items: baseline;
+        text-align: left;
         gap: 32px;
     }
 
