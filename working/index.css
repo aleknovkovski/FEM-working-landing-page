@@ -38,6 +38,10 @@ body, button {
         margin: 0 auto;
     }
 
+    .header {
+        padding-bottom: 56px;
+    }
+
     .inner-container {
         width: 689px;
         margin: 0 auto;
@@ -57,10 +61,6 @@ body, button {
     .inner-container {
         width: 1114px;
         margin: 0 auto;
-    }
-
-    .header {
-        padding: 56px;
     }
 }
 
