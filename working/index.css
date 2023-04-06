@@ -93,6 +93,7 @@ main {
     flex-direction: column;
     z-index: 2;
     overflow: hidden;
+    background: #FCF8FF;
 }
 
 .hero::before {
@@ -193,7 +194,6 @@ main {
 }
 
 .features {
-    top: -80px;
     padding-top: 155px; /* 155 per figma plus the 80 from top */
     position: relative;
     display: flex;
