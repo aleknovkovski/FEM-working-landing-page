@@ -104,12 +104,6 @@ main {
     height: 100%;
     background-color: transparent;
     z-index: 1;
-
-    background-image: url("./assets/images/bg-pattern-3.svg"),
-    url("./assets/images/bg-pattern-2.svg");
-    background-repeat: no-repeat, no-repeat;
-    background-position: -45% 30%, 115% 55%;
-    background-size: 40%, auto;
 }
 
 .hero::after {
@@ -144,6 +138,16 @@ main {
     .hero-content-box {
         margin-bottom: 326px;
     }
+}
+
+@media screen and (min-width: 768px) {
+.hero::before {
+    background-image: url("./assets/images/bg-pattern-3.svg"),
+    url("./assets/images/bg-pattern-2.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: -45% 30%, 115% 55%;
+    background-size: 40%, auto;
+}
 }
 
 /*.hero-divider {*/
@@ -271,7 +275,7 @@ main {
     justify-content: center;
 }
 
-.call-to-action img {
+.founder {
     width: 281px;
     height: 281px;
     z-index: -1;
@@ -285,6 +289,15 @@ main {
     height: 375px;
     background: #24053E;
     padding: 56px;
+    z-index: -1;
+}
+
+.cta-springie {
+    position: absolute;
+    width: 173px;
+    z-index: 1;
+    bottom: -80px;
+    right: 10px;
 }
 
 h2 {
@@ -301,7 +314,7 @@ button {
 }
 
 @media screen and (min-width: 1440px) {
-    .call-to-action img {
+    .founder {
         width: 477px;
         height: 477px;
         top: -175px;
@@ -313,6 +326,13 @@ button {
         height: 413px;
         padding: 64px;
     }
+
+    .cta-springie {
+        width: 173px;
+        bottom: 10px;
+        right: 190px;
+    }
+
 
     h2 {
         font-size: 48px;
