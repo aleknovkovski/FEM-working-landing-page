@@ -351,9 +351,23 @@ h1, h2, h3, .number-circle {
 }
 
 h1 {
-    font-size: 80px;
-    line-height: 80px;
-    margin-bottom: 37px;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    h1 {
+        font-size: 80px;
+        line-height: 80px;
+        margin-bottom: 37px;
+    }
 }
 
 p, h2 {
