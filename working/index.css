@@ -78,6 +78,10 @@ body, button {
     border-bottom: 3px solid #44FFA1;
 }
 
+.header-CTA:hover {
+    color: #44FFA1;
+}
+
 main {
     position: relative;
     top: -160px;
