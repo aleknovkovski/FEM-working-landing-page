@@ -61,23 +61,23 @@ You then set the section itself to a z-index of one. So somehow this produces a 
 
 In a "graphical sense", the layers end up like so
 
->Section|Background {-2}
+>SectionBackground | {-2}
 
->Section::After (-1)
+>Section::After | (-1)
 
->Section|Content (1)
+>SectionContent | (1)
 
 -* By {-2} I mean that it acts as if it were a -2 in depth.
 
 Next, in order to add graphical elements in the section, you create a ::before. Same logic as the ::after; Except we're not setting the z-index on this one, so this will allow it to exist on top of the main section content. In a graphical sense it will act like a 2 in depth, or we get the following:
 
->Section|Background {-2}
+>SectionBackground | {-2}
 
->Section::After (-1)
+>Section::After | (-1)
 
->Section|Content (1)
+>SectionContent | (1)
 
->Section::Before (2)
+>Section::Before | (2)
 
 Since this will act as if it were a layer on top of the content, we set it to transparent background to make sure the content behind it is visible. We'll only use it to set transparent shapes in the background-image space.
 
