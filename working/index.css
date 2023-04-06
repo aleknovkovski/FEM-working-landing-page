@@ -224,6 +224,7 @@ main {
     gap: 26px;
 
     padding: 0 58px; /* takes inner-container in account, achieves 97px space to edge as per Figma */
+    margin-bottom: 71px;
 }
 
 .feature-box {
@@ -255,7 +256,7 @@ main {
 
     .features-content-box {
         justify-content: center;
-        padding: 0 58px; /* takes inner-container in account, achieves 97px space to edge as per Figma */
+        margin-bottom: 103px;
     }
 
     .feature-box {
@@ -285,6 +286,7 @@ main {
         flex-direction: row;
         gap: 26px;
         justify-content: center;
+        margin-bottom: 171px;
     }
 
     .feature-box {
