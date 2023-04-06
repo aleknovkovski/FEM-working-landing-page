@@ -15,8 +15,8 @@
 
 body, button {
     font-family: 'Manrope', sans-serif;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 28px;
     color: #24053E;
 }
 
@@ -45,6 +45,11 @@ body, button {
 }
 
 @media screen and (min-width: 1440px) {
+    .body {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
     .container {
         width: 1440px;
     }
@@ -267,19 +272,57 @@ main {
 }
 
 .call-to-action img {
-    width: 477px;
-    height: 477px;
+    width: 281px;
+    height: 281px;
     z-index: -1;
     position: relative;
-    top: -175px;
+    top: -145px;
     right: -100px;
 }
 
 .call-to-action__box {
-    width: 730px;
-    height: 413px;
+    width: 514px;
+    height: 375px;
     background: #24053E;
-    padding: 64px;
+    padding: 56px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+button {
+    background: #44FFA1;
+    padding: 11px 23px;
+    font-weight: 700;
+    letter-spacing: -0.16px;
+    border-style: none;
+}
+
+@media screen and (min-width: 1440px) {
+    .call-to-action img {
+        width: 477px;
+        height: 477px;
+        top: -175px;
+        right: -100px;
+    }
+
+    .call-to-action__box {
+        width: 730px;
+        height: 413px;
+        padding: 64px;
+    }
+
+    h2 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    button {
+        letter-spacing: -0.18px;
+        padding: 13px 25px;
+    }
 }
 
 h1, h2, h3, .number-circle {
@@ -293,11 +336,6 @@ h1 {
     margin-bottom: 37px;
 }
 
-h2 {
-    font-size: 56px;
-    line-height: 64px;
-}
-
 p, h2 {
     margin-bottom: 32px;
 }
@@ -307,10 +345,3 @@ h3 {
     margin-bottom: 28px;
 }
 
-button {
-    background: #44FFA1;
-    padding: 13px 25px;
-    font-weight: 700;
-    letter-spacing: -0.18px;
-    border-style: none;
-}
