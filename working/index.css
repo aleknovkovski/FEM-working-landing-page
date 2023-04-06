@@ -136,21 +136,6 @@ main {
     margin-bottom: 156px;
 }
 
-@media screen and (min-width: 1440px) {
-    .hero::after {
-        transform: scaleX(1.5);
-    }
-
-    .hero::before {
-        background-position: -10% 30%, 103% 55%;
-        background-size: 20%, auto;
-    }
-
-    .hero-content-box {
-        margin-bottom: 326px;
-    }
-}
-
 @media screen and (min-width: 768px) {
     .hero::after {
         transform: scaleX(2.1);
@@ -169,6 +154,22 @@ main {
         background-size: 40%, auto;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .hero::after {
+        transform: scaleX(1.5);
+    }
+
+    .hero::before {
+        background-position: -10% 30%, 103% 55%;
+        background-size: 20%, auto;
+    }
+
+    .hero-content-box {
+        margin-bottom: 326px;
+    }
+}
+
 
 .hero-image {
     position: absolute;
