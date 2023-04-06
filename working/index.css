@@ -114,7 +114,7 @@ main {
     height: 100%;
     background-color: #24053E;
     border-radius: 0 0 80% 80%;
-    transform: scaleX(1.5);
+    transform: scaleX(2.5);
     z-index: -1;
     pointer-events: none
 }
@@ -130,6 +130,10 @@ main {
 }
 
 @media screen and (min-width: 1440px) {
+    .hero::after {
+        transform: scaleX(1.5);
+    }
+
     .hero::before {
         background-position: -10% 30%, 103% 55%;
         background-size: 20%, auto;
@@ -141,6 +145,10 @@ main {
 }
 
 @media screen and (min-width: 768px) {
+    .hero::after {
+        transform: scaleX(2.1);
+    }
+
     .hero-content-box {
         width: 635px;
         margin-bottom: 203px;
@@ -231,8 +239,8 @@ main {
     width: 100%;
     background-color: #FCF8FF;
     height: 100%;
-    border-radius: 0 0 100% 100%;
-    transform: scaleX(1.2);
+    border-radius: 0 0 80% 80%;
+    transform: scaleX(2.5);
 }
 
 .features-content-box {
@@ -266,6 +274,10 @@ main {
 
 @media (min-width: 768px) {
 
+    .features-divider::after {
+        transform: scaleX(2.1);
+    }
+
     .features {
         padding-top: 283px; /* 203 per figma, plus 80 from top*/
     }
@@ -291,6 +303,11 @@ main {
 
 
 @media (min-width: 1440px) {
+
+    .features-divider::after {
+        transform: scaleX(1.5);
+    }
+
     .features {
         padding-top: 335px; /* 255 per figma, plus 80 from top*/
     }
