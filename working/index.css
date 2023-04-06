@@ -333,6 +333,8 @@ main {
     display: flex;
     position: relative;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .founder {
@@ -340,16 +342,16 @@ main {
     height: 281px;
     z-index: -1;
     position: relative;
-    top: -145px;
-    right: -100px;
+    top: 50px;
 }
 
 .call-to-action__box {
-    width: 514px;
-    height: 375px;
     background: #24053E;
-    padding: 56px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 31px;
     z-index: -1;
+    text-align: center;
 }
 
 .cta-springie {
@@ -371,6 +373,29 @@ button {
     font-weight: 700;
     letter-spacing: -0.16px;
     border-style: none;
+}
+
+@media screen and (min-width: 768px) {
+    .call-to-action {
+        flex-direction: row;
+    }
+
+
+    .founder {
+        position: relative;
+        top: -145px;
+        right: -100px;
+    }
+
+    .call-to-action__box {
+        width: 514px;
+        height: 375px;
+        background: #24053E;
+        margin: 0;
+        padding: 56px;
+        z-index: -1;
+        text-align: left;
+    }
 }
 
 @media screen and (min-width: 1440px) {
