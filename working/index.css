@@ -212,22 +212,37 @@ main {
 
 .features-content-box {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 26px;
     justify-content: center;
+    padding: 0 58px; /* takes inner-container in account, achieves 97px space to edge as per Figma */
 }
 
 .feature-box {
-    width: 354px;
-    text-align: center;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 32px;
 }
 
 @media (min-width: 1440px) {
     .features {
         padding-top: 335px; /* 255 per figma, plus 80 from top*/
+    }
+
+    .features-content-box {
+        display: flex;
+        flex-direction: row;
+        gap: 26px;
+        justify-content: center;
+    }
+
+    .feature-box {
+        flex-direction: column;
+        align-items: center;
+        width: 354px;
+        text-align: center;
+        gap: 56px;
     }
 }
 
@@ -235,9 +250,9 @@ main {
     width: 56px;
     height: 56px;
     display: flex;
+    flex-shrink: 0;
     align-items: center;
     justify-content: center;
-    margin-bottom: 56px;
     border: 1px solid #584D62;
     border-radius: 30px;
     font-size: 24px;
