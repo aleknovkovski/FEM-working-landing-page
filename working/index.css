@@ -93,8 +93,8 @@ main {
     background-image: url("./assets/images/bg-pattern-3.svg"),
     url("./assets/images/bg-pattern-2.svg");
     background-repeat: no-repeat, no-repeat;
-    background-position: -10% 30%, 103% 55%;
-    background-size: 20%, auto;
+    background-position: -45% 30%, 115% 55%;
+    background-size: 40%, auto;
 }
 
 .hero::after {
@@ -108,6 +108,13 @@ main {
     transform: scaleX(1.5);
     z-index: -1;
     pointer-events: none
+}
+
+@media screen and (min-width: 769px) {
+    .hero::before {
+        background-position: -10% 30%, 103% 55%;
+        background-size: 20%, auto;
+    }
 }
 
 /*.hero-divider {*/
