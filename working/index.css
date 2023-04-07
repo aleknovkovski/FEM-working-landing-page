@@ -206,7 +206,7 @@ main, footer {
     align-items: center;
     flex-direction: column;
     z-index: -2;
-    overflow: hidden;
+    overflow-x: clip;
     background-color: transparent;
 }
 
